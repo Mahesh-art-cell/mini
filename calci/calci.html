@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div id="Container">
+        <p>0</p>
+        <div>
+            <button onclick="Validation('7')">7</button>
+            <button onclick="Validation('8')">8</button>
+            <button onclick="Validation('9')">9</button>
+            <button onclick="Validation('%')">%</button>
+        </div>
+        <div>
+            <button onclick="Validation('4')">4</button>
+            <button onclick="Validation('5')">5</button>
+            <button onclick="Validation('6')">6</button>
+            <button onclick="Validation('+')">+</button>
+        </div>
+        <div>
+            <button onclick="Validation('1')">1</button>
+            <button onclick="Validation('2')">2</button>
+            <button onclick="Validation('3')">3</button>
+            <button onclick="Validation('-')">-</button>
+        </div>
+        <div>
+            <button onclick="Validation('0')">0</button>
+            <button onclick="Validation('.')">.</button>
+            <button onclick="Validation('*')">*</button>
+            <button onclick="total()">=</button>
+        </div>
+        <button onclick="vanish()">c</button>
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>

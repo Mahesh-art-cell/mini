@@ -1,0 +1,60 @@
+const QuotesData =[
+    "Success is not final, failure is not fatal: It is the courage to continue that counts. – Winston Churchill",
+    "Believe you can and you're halfway there. – Theodore Roosevelt",
+    "Do what you can, with what you have, where you are. – Theodore Roosevelt",
+    "The only way to do great work is to love what you do. – Steve Jobs",
+    "The journey of a thousand miles begins with one step. – Lao Tzu",
+    "Life is what happens when you're busy making other plans. – John Lennon",
+    "In the middle of every difficulty lies opportunity. – Albert Einstein",
+    "Your time is limited, don't waste it living someone else's life. – Steve Jobs",
+    "Happiness is not by chance, but by choice. – Jim Rohn",
+    "Act as if what you do makes a difference. It does. – William James",
+    "What lies behind us and what lies before us are tiny matters compared to what lies within us. – Ralph Waldo Emerson",
+    "You miss 100% of the shots you don't take. – Wayne Gretzky",
+    "Keep your face always toward the sunshine—and shadows will fall behind you. – Walt Whitman",
+    "It is never too late to be what you might have been. – George Eliot",
+    "The only limit to our realization of tomorrow is our doubts of today. – Franklin D. Roosevelt",
+    "If you want to lift yourself up, lift up someone else. – Booker T. Washington",
+    "The best way to predict the future is to create it. – Peter Drucker",
+    "Don’t wait. The time will never be just right. – Napoleon Hill",
+    "Success usually comes to those who are too busy to be looking for it. – Henry David Thoreau",
+    "If you’re going through hell, keep going. – Winston Churchill",
+    "Hardships often prepare ordinary people for an extraordinary destiny. – C.S. Lewis",
+    "The only person you are destined to become is the person you decide to be. – Ralph Waldo Emerson",
+    "It does not matter how slowly you go as long as you do not stop. – Confucius",
+    "Great things are done by a series of small things brought together. – Vincent Van Gogh",
+    "Dream big and dare to fail. – Norman Vaughan",
+    "The purpose of life is to believe, to hope, and to strive. – Indira Gandhi",
+    "Life isn’t about waiting for the storm to pass; it’s about learning how to dance in the rain. – Vivian Greene",
+    "What you get by achieving your goals is not as important as what you become by achieving your goals. – Zig Ziglar",
+    "The future depends on what you do today. – Mahatma Gandhi",
+    "Do one thing every day that scares you. – Eleanor Roosevelt",
+    "Success is getting what you want. Happiness is wanting what you get. – Dale Carnegie",
+    "Fall seven times and stand up eight. – Japanese Proverb",
+    "Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart. – Roy T. Bennett",
+    "We are what we repeatedly do. Excellence, then, is not an act, but a habit. – Aristotle",
+    "Be the change that you wish to see in the world. – Mahatma Gandhi",
+    "Don’t let yesterday take up too much of today. – Will Rogers",
+    "Failure is not the opposite of success; it’s part of success. – Arianna Huffington",
+    "Every strike brings me closer to the next home run. – Babe Ruth",
+    "Opportunities don’t happen, you create them. – Chris Grosser",
+    "The harder you work for something, the greater you’ll feel when you achieve it. – Unknown",
+    "Do what you feel in your heart to be right—for you’ll be criticized anyway. – Eleanor Roosevelt",
+    "Courage is resistance to fear, mastery of fear—not absence of fear. – Mark Twain",
+    "You define your own life. Don’t let other people write your script. – Oprah Winfrey",
+    "You can’t use up creativity. The more you use, the more you have. – Maya Angelou",
+    "Turn your wounds into wisdom. – Oprah Winfrey",
+    "Happiness is not something ready made. It comes from your own actions. – Dalai Lama",
+    "It always seems impossible until it’s done. – Nelson Mandela",
+    "We may encounter many defeats but we must not be defeated. – Maya Angelou",
+    "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. – Buddha",
+    "Everything you’ve ever wanted is on the other side of fear. – George Addair"
+]
+
+
+function Random(){
+    let quote=document.querySelector("div")
+    let index=Math.floor(Math.random()*QuotesData.length)
+    console.log(index)
+    quote.textContent=QuotesData[index]
+}
